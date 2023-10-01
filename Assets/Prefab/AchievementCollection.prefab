@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &531259703417489371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 531259703417489368}
+  - component: {fileID: 531259703417489374}
+  - component: {fileID: 531259703417489369}
+  - component: {fileID: 531259703417489375}
+  - component: {fileID: 531259703417489372}
+  - component: {fileID: 531259703417489362}
+  - component: {fileID: 531259703417489373}
+  - component: {fileID: 1075330667}
+  - component: {fileID: 415329660}
+  m_Layer: 0
+  m_Name: AchievementCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &531259703417489368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531259703417489371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2059.872, y: 1084.0656, z: -78.374794}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &531259703417489374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531259703417489371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed57b5a33cd9d924cad9379b8da595b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atriggerList:
+  - {fileID: 531259703417489369}
+  - {fileID: 531259703417489375}
+  - {fileID: 531259703417489372}
+  - {fileID: 531259703417489362}
+  - {fileID: 531259703417489373}
+  - {fileID: 1075330667}
+  - {fileID: 415329660}
+--- !u!114 &531259703417489369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531259703417489371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968348ed77ae68147af31a5138039632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievement:
+    title: Just do it !
+    description:
+    - Vous n'avez rien fait pendant 30 secondes !
+  isAchieved: 0
+--- !u!114 &531259703417489375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531259703417489371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968348ed77ae68147af31a5138039632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievement:
+    title: Keep Moving !
+    description:
+    - Vous savez appuyer sur un bouton, bravo
+  isAchieved: 0
+--- !u!114 &531259703417489372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531259703417489371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968348ed77ae68147af31a5138039632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievement:
+    title: Always Higher !
+    description:
+    - "Bient\xF4t jusqu'aux \xE9toiles !"
+  isAchieved: 0
+--- !u!114 &531259703417489362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531259703417489371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968348ed77ae68147af31a5138039632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievement:
+    title: Stay Determined !
+    description:
+    - "La mort n'est qu'un nouveau d\xE9part"
+  isAchieved: 0
+--- !u!114 &531259703417489373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531259703417489371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968348ed77ae68147af31a5138039632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievement:
+    title: To infinity and beyond !
+    description:
+    - "D\xE9j\xE0 100 pas, waouh !"
+  isAchieved: 0
+--- !u!114 &1075330667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531259703417489371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968348ed77ae68147af31a5138039632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievement:
+    title: Dans le mille !
+    description:
+    - Il faut viser les ennemis maintenant
+  isAchieved: 0
+--- !u!114 &415329660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531259703417489371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968348ed77ae68147af31a5138039632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievement:
+    title: Vaincre les echecs !
+    description:
+    - "Et c'est comme \xE7a qu'on trouve le succ\xE8s"
+  isAchieved: 0

@@ -1,2 +1,2 @@
-# Epitech-JAM-2021
-Game made during an epitech JAM in 2021
+# Echec-the-game
+Repo for the epitech jam of the 11/02/2022
